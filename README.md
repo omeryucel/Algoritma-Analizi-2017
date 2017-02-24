@@ -1,1 +1,1 @@
-# Algoritma-Analizi-2017
+# Algoritma Analizi - 2017
