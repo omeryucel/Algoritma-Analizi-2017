@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+static int step=0;
+
 int powerOb(int base,int pow)
 {
    int i;
@@ -14,6 +16,7 @@ int powerOb(int base,int pow)
 
 long powerLogb(int x,int n)
 {
+     step++;
      if(n==0)
         return 1;
      if(n==1)
@@ -27,7 +30,8 @@ long powerLogb(int x,int n)
 int main(int argc, char *argv[])
 {
   printf("Result : %d\n",powerOb(2,4));
-  printf("Result : %d",powerLogb(2,4));
+  printf("Result : %ld - Step: %d",powerLogb(2,4),step);
+
   system("PAUSE");	
   return 0;
 }
