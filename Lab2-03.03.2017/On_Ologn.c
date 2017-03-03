@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int powerOb(int base,int pow)
 {
    int i;
