@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 #define SIZE 400
-
 static int array[SIZE];
 
 //Complexity for Fibonacci with Dynamic Programming O(n)
