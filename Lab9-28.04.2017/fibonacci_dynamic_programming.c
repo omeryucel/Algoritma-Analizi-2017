@@ -3,9 +3,9 @@
 
 #define SIZE 400
 
-//Complexity for Fibonacci with Dynamic Programming O(n)
-
 static int array[SIZE];
+
+//Complexity for Fibonacci with Dynamic Programming O(n)
 
 int fibonacci(int i)
 {
